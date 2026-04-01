@@ -28,11 +28,7 @@ Ele usa perguntas guiadas e exemplos práticos para estimular decisões mais con
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-Pessoas que:
-
-Já têm noção básica de dinheiro
-Mas têm dificuldade em controlar gastos
-Querem melhorar hábitos financeiros no dia a dia
+Pessoas que: Já têm noção básica de dinheiro, Mas têm dificuldade em controlar gastos, Querem melhorar hábitos financeiros no dia a dia
 ---
 
 ## Persona e Tom de Voz
