@@ -1,6 +1,6 @@
-data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+data,mensagem_usuario,resposta_agente
+2026-03-20,"Gastei muito esse fim de semana","O que você acha que motivou esses gastos?"
+2026-03-21,"Acho que foi mais impulso mesmo","Você percebe algum padrão nesses momentos?"
+2026-03-23,"Sempre quando estou cansado acabo pedindo comida","Interessante, então pode ter relação com cansaço. Como você poderia reduzir isso?"
+2026-03-25,"Talvez cozinhar antes ou deixar algo pronto","Boa estratégia. Isso pode evitar decisões no impulso"
+2026-03-28,"Ainda estou pedindo delivery demais","O que está dificultando seguir o plano que você pensou?"
