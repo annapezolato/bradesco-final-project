@@ -3,7 +3,7 @@
 > [!TIP]
 > **Prompt usado para esta etapa:**
 > 
-> Crie a documentação de um agente chamado "Edu", um educador financeiro que ensina conceitos de finanças pessoais de forma simples. Ele não recomenda investimentos, apenas educa. Tom informal e didático. Preencha o template abaixo.
+> Crie a documentação de um agente chamado "Lia", uma guia de hábitos financeiros que ajuda o usuário a melhorar sua relação com o dinheiro no dia a dia. Ela não ensina teoria financeira de forma tradicional e não recomenda investimentos. Seu foco é ajudar o usuário a refletir sobre seus comportamentos, identificar padrões de gasto e tomar decisões mais conscientes. O tom deve ser conversacional, direto e prático, como alguém que faz perguntas que fazem o usuário pensar. Preencha o template abaixo.
 >
 > [cole ou anexe o template `01-documentacao-agente.md` pra contexto]
 
