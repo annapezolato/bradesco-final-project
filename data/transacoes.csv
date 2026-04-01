@@ -1,11 +1,13 @@
-data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+data,categoria,descricao,valor,tipo
+2026-03-18,supermercado,"Compra semanal",210.50,essencial
+2026-03-18,streaming,"Assinatura mensal",39.90,recorrente
+2026-03-19,delivery,"Pedido jantar",72.30,impulsivo
+2026-03-20,delivery,"Pedido almoço",58.00,impulsivo
+2026-03-21,transporte,"Uber trabalho",25.00,essencial
+2026-03-22,compras_online,"Compra roupa",180.00,impulsivo
+2026-03-23,delivery,"Pedido noite",65.00,impulsivo
+2026-03-24,academia,"Mensalidade",89.90,recorrente
+2026-03-25,supermercado,"Compra pequena",95.00,essencial
+2026-03-26,apps_de_comida,"Lanche",42.00,emocional
+2026-03-27,delivery,"Jantar",70.00,impulsivo
+2026-03-28,streaming,"Assinatura extra",19.90,evitavel
