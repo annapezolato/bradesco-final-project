@@ -3,18 +3,18 @@
 > [!TIP]
 > **Prompt usado para esta etapa:**
 > 
-> Organize a base de conhecimento do agente "Edu" usando os 4 arquivos da pasta `data/` (em anexo). Explique pra que serve cada arquivo e monte um exemplo de contexto formatado que será enviado pro LLM. Preencha o template abaixo.
+> Organize a base de conhecimento do agente "Lia" usando os arquivos da pasta data/. Explique para que serve cada arquivo e como eles ajudam o agente a identificar padrões de comportamento financeiro do usuário. Monte um exemplo de contexto estruturado que será enviado para o LLM.
 >
 > [cole ou anexe o template `02-base-conhecimento.md` pra contexto]
 
 ## Dados Utilizados
 
-| Arquivo | Formato | Para que serve no Edu? |
+| Arquivo | Formato | Para que serve na Lia? |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores, ou seja, dar continuidade ao atendimento de forma mais eficiente. |
-| `perfil_investidor.json` | JSON | Personalizar as explicações sobre as dúvidas e necessidades de aprendizado do cliente. |
-| `produtos_financeiros.json` | JSON | Conhecer os produtos disponíveis para que eles possam ser ensinados ao cliente. |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente e usar essas informações de forma didática. |
+| `historico_interacoes.csv` | CSV | Armazena conversas anteriores para identificar evolução de comportamento e evitar repetição de perguntas. |
+| `perfil_usuario.json` | JSON | Define características comportamentais (ex: impulsivo, planejador, evitador) para personalizar as interações. |
+| `categorias_gastos.json` | JSON | Classifica tipos de despesas (essencial, supérfluo, impulsivo) para análise de hábitos. |
+| `transacoes.csv` | CSV | Base principal para identificar padrões reais de consumo do usuário. |
 
 ---
 
@@ -22,7 +22,8 @@
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-O produto Fundo Imobiliário (FII) substituiu o Fundo Multimercado, pois pessoalmente me sinto mais confiante em usar apenas produtos financeiros que eu conheço. Assim, poderei validar as respostas do Edu de forma mais assertiva.
+Remoção completa de dados relacionados a produtos financeiros, isso elimina o risco do agente “escorregar” para recomendação de investimento. Inclusão de categorias comportamentais de gasto, como: gasto por impulso, gasto emocional, gasto recorrente evitável.
+Ajuste no perfil do usuário para refletir comportamento, não conhecimento técnico (ex: “sabe o que é orçamento, mas não segue”).
 
 ---
 
