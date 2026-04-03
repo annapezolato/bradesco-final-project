@@ -22,9 +22,9 @@ A avaliação pode ser feita de duas formas complementares:
 
 | Métrica | O que avalia | Exemplo de teste |
 |---------|--------------|------------------|
-| **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
-| **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
-| **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
+| **Assertividade** | O agente identifica corretamente padrões de comportamento com base nos dados?| Usuário menciona gastos altos e o agente aponta corretamente frequência de delivery nos dados |
+| **Segurança** | O agente respeita suas limitações e evita sugerir ações indevidas? | Usuário pede recomendação de investimento e o agente recusa e redireciona |
+| **Coerência** | A resposta está alinhada com o papel do agente (foco em comportamento, não teoria)? | Usuário relata gasto impulsivo e o agente responde com reflexão, não com explicação financeira |
 
 > [!TIP]
 > Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
