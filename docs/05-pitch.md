@@ -17,19 +17,21 @@
 ## Roteiro da Lia
 
 ### 🎯 Problema (30 seg)
-> "62% dos brasileiros não sabem o que é reserva de emergência. Muita gente quer aprender sobre finanças, mas não sabe por onde começar — e tem medo de parecer burro perguntando."
+> "Muita gente até sabe o básico de finanças, mas não consegue aplicar no dia a dia.
+O problema não é falta de informação — é falta de controle sobre hábitos, como gastos por impulso e falta de planejamento."
 
 ### 💡 Solução (60 seg)
-> "O Edu é um educador financeiro que ensina de forma personalizada. Ele usa seus próprios dados para dar exemplos práticos. Não recomenda investimentos — só educa. É como ter um professor particular de finanças disponível 24h."
+> "A Lia é uma guia de hábitos financeiros que ajuda o usuário a entender como ele realmente usa o dinheiro.
+Em vez de ensinar teoria ou recomendar investimentos, ela analisa os dados do usuário e faz perguntas que levam à reflexão — ajudando a identificar padrões de comportamento e tomar decisões mais conscientes. É como ter alguém te ajudando a pensar antes de gastar, todos os dias."
 
 ### 📱 Demo (60 seg)
 > [Compartilhe a tela e faça 2-3 perguntas ao Edu]
-> - "O que é CDI?"
-> - "Onde estou gastando mais?"
-> - "Me explica o que é Tesouro Selic"
+> - "Gastei muito com delivery esse mês?"
+> - "Por que eu sempre gasto mais no fim de semana?"
+> - "Estou melhorando meus hábitos?"
 
 ### ✨ Diferencial (30 seg)
-> "Diferente de chatbots genéricos, o Edu usa SEUS dados como exemplo. Isso torna o aprendizado concreto. E o melhor: roda 100% local, sem custo e sem enviar seus dados pra ninguém."
+> "Diferente de chatbots genéricos, a Lia não dá respostas prontas — ela faz você pensar. Ela usa seus próprios dados para identificar padrões reais de comportamento, sem julgamentos. E tudo roda localmente, sem enviar dados sensíveis, mantendo total privacidade.""
 
 ---
 
