@@ -14,7 +14,7 @@
 
 ---
  
-## Roteiro do Edu
+## Roteiro da Lia
 
 ### 🎯 Problema (30 seg)
 > "62% dos brasileiros não sabem o que é reserva de emergência. Muita gente quer aprender sobre finanças, mas não sabe por onde começar — e tem medo de parecer burro perguntando."
