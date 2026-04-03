@@ -3,7 +3,8 @@
 > [!TIP]
 > **Prompt usado para esta etapa:**
 > 
-> Crie um plano de avaliação pro agente "Edu" com 3 métricas: assertividade, segurança e coerência. Inclua 4 cenários de teste e um formulário simples de feedback. Preencha o template abaixo.
+> Crie um plano de avaliação para o agente "Lia", que atua como guia de hábitos financeiros. O foco da avaliação deve ser a capacidade do agente de analisar comportamentos, gerar reflexões relevantes e manter suas limitações (sem recomendar investimentos).
+Inclua 3 métricas: assertividade, segurança e coerência. Inclua 4 cenários de teste e um formulário simples de feedback.
 >
 > [cole ou anexe o template `04-metricas.md` pra contexto]
 
