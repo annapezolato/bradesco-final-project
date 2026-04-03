@@ -135,10 +135,4 @@ RESUMO DE GASTOS:
 - Lazer: R$ 55,90
 - Total de saídas: R$ 2.488,90
 
-PRODUTOS DISPONÍVEIS PARA EXPLICAR:
-- Tesouro Selic (risco baixo)
-- CDB Liquidez Diária (risco baixo)
-- LCI/LCA (risco baixo)
-- Fundo Imobiliário - FII (risco médio)
-- Fundo de Ações (risco alto)
 ```
