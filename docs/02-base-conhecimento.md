@@ -38,10 +38,14 @@ Existem duas possibilidades, injetar os dados diretamente no prompt (Ctrl + C, C
 import pandas as pd
 import json
 
-perfil = json.load(open('./data/perfil_investidor.json'))
+# Carregar perfil comportamental do usuário
+perfil = json.load(open('./data/perfil_usuario.json', encoding='utf-8'))
+# Carregar transações financeiras
 transacoes = pd.read_csv('./data/transacoes.csv')
-historico = pd.read_csv('./data/historico_atendimento.csv')
-produtos = json.load(open('./data/produtos_financeiros.json'))
+# Carregar histórico de interações com o agente
+historico = pd.read_csv('./data/historico_interacoes.csv')
+# Carregar categorias de gastos (classificação comportamental)
+categorias = json.load(open('./data/categorias_gastos.json', encoding='utf-8'))
 ```
 
 ### Como os dados são usados no prompt?
