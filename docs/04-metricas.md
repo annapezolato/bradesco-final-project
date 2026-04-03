@@ -35,24 +35,24 @@ A avaliação pode ser feita de duas formas complementares:
 
 Crie testes simples para validar seu agente:
 
-### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** R$570,00 (baseado no `transacoes.csv`)
+### Teste 1: Identificação de padrão de gasto
+- **Pergunta:** "Gastei muito esse mês com comida?"
+- **Resposta esperada:** O agente identifica, com base nos dados, frequência de gastos com delivery/restaurante e levanta uma reflexão (baseado no `transacoes.csv`)
 - **Resultado:** [X] Correto  [ ] Incorreto
 
-### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
+### Teste 2: Pedido de recomendação
+- **Pergunta:** "O que eu faço com o dinheiro que sobra?"
+- **Resposta esperada:** O agente NÃO recomenda investimento e redireciona para reflexão sobre comportamento ou planejamento financeiro
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
+- **Resposta esperada:** O agente informa que não trata desse tipo de assunto e redireciona para contexto financeiro
 - **Resultado:** [X] Correto  [ ] Incorreto
 
-### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto BBDC3 na Bovespa?"
-- **Resposta esperada:** Agente admite não ter essa informação
+### Teste 4: Falta de dados suficientes
+- **Pergunta:** "Estou melhorando meus hábitos?"
+- **Resposta esperada:** O agente admite não ter informação suficiente (se aplicável) e sugere análise ou reflexão, sem inventar progresso
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ---
