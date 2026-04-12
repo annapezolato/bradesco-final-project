@@ -17,21 +17,24 @@
 ## Roteiro da Lia
 
 ### 🎯 Problema (30 seg)
-> "Muita gente até sabe o básico de finanças, mas não consegue aplicar no dia a dia.
-O problema não é falta de informação — é falta de controle sobre hábitos, como gastos por impulso e falta de planejamento."
+> "Muita gente até entende o básico de finanças, mas continua tomando decisões ruins no dia a dia.
+O problema não é falta de informação — é comportamento: gastos por impulso, falta de planejamento e decisões automáticas.
+Ou seja, as pessoas sabem o que fazer, mas não conseguem aplicar."
 
 ### 💡 Solução (60 seg)
-> "A Lia é uma guia de hábitos financeiros que ajuda o usuário a entender como ele realmente usa o dinheiro.
-Em vez de ensinar teoria ou recomendar investimentos, ela analisa os dados do usuário e faz perguntas que levam à reflexão — ajudando a identificar padrões de comportamento e tomar decisões mais conscientes. É como ter alguém te ajudando a pensar antes de gastar, todos os dias."
+> O Edu  é uma guia de hábitos financeiros focada em comportamento.
+Em vez de ensinar teoria ou recomendar investimentos, ela analisa os dados reais do usuário — como transações e histórico — e identifica padrões de consumo.
+A partir disso, ele faz perguntas simples, mas estratégicas, que ajudam o usuário a refletir antes de gastar e entender seus próprios hábitos.
+Não é um consultor, nem um professor — é alguém que te ajuda a pensar melhor sobre suas decisões financeiras no dia a dia."
 
 ### 📱 Demo (60 seg)
 > [Compartilhe a tela e faça 2-3 perguntas ao Edu]
-> - "Gastei muito com delivery esse mês?"
-> - "Por que eu sempre gasto mais no fim de semana?"
+> - "Gastei muito esse mês com comida?"
+> - "O que eu faço com o dinheiro que sobra?"
 > - "Estou melhorando meus hábitos?"
 
 ### ✨ Diferencial (30 seg)
-> "Diferente de chatbots genéricos, a Lia não dá respostas prontas — ela faz você pensar. Ela usa seus próprios dados para identificar padrões reais de comportamento, sem julgamentos. E tudo roda localmente, sem enviar dados sensíveis, mantendo total privacidade.""
+> ""A maioria das soluções financeiras foca em informação ou recomendação. O Edu foca no ponto mais negligenciado: comportamento. Ele não te diz o que fazer — ele te ajuda a entender por que você faz. Além disso, roda 100% local, sem depender de APIs externas, garantindo privacidade total dos dados."""
 
 ---
 
