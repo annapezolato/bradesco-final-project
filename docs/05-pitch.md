@@ -22,7 +22,7 @@ O problema não é falta de informação — é comportamento: gastos por impuls
 Ou seja, as pessoas sabem o que fazer, mas não conseguem aplicar."
 
 ### 💡 Solução (60 seg)
-> O Edu  é uma guia de hábitos financeiros focada em comportamento.
+> A LIa  é uma guia de hábitos financeiros focada em comportamento.
 Em vez de ensinar teoria ou recomendar investimentos, ela analisa os dados reais do usuário — como transações e histórico — e identifica padrões de consumo.
 A partir disso, ele faz perguntas simples, mas estratégicas, que ajudam o usuário a refletir antes de gastar e entender seus próprios hábitos.
 Não é um consultor, nem um professor — é alguém que te ajuda a pensar melhor sobre suas decisões financeiras no dia a dia."
@@ -34,7 +34,7 @@ Não é um consultor, nem um professor — é alguém que te ajuda a pensar melh
 > - "Estou melhorando meus hábitos?"
 
 ### ✨ Diferencial (30 seg)
-> ""A maioria das soluções financeiras foca em informação ou recomendação. O Edu foca no ponto mais negligenciado: comportamento. Ele não te diz o que fazer — ele te ajuda a entender por que você faz. Além disso, roda 100% local, sem depender de APIs externas, garantindo privacidade total dos dados."""
+> ""A maioria das soluções financeiras foca em informação ou recomendação. O Edu foca no ponto mais negligenciado: comportamento. Ela não te diz o que fazer — ele te ajuda a entender por que você faz. Além disso, roda 100% local, sem depender de APIs externas, garantindo privacidade total dos dados."""
 
 ---
 
