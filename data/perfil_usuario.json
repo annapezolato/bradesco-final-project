@@ -1,6 +1,11 @@
 {
+  "nome": "Cliente",
+  "idade": 30,
   "tipo_comportamento": "impulsivo",
   "nivel_consciencia_financeira": "medio",
+  "renda_mensal": 3000,
+  "objetivo_principal": "reduzir gastos desnecessarios",
+
   "principais_dificuldades": [
     "gastos por impulso",
     "uso frequente de delivery",
@@ -10,10 +15,5 @@
     "cansaço",
     "estresse",
     "busca por conveniência"
-  ],
-  "objetivos": [
-    "reduzir gastos desnecessarios",
-    "melhorar controle financeiro",
-    "tomar decisoes mais conscientes"
   ]
 }
