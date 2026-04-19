@@ -121,7 +121,7 @@ def perguntar(msg):
 # ============ INTERFACE ============
 st.title("Raí - Consultor de Carteira All-Weather Brasil")
 
-if pergunta := st.chat_input("Sua dúvida sobre finanças..."):
+if pergunta := st.chat_input("Como posso te ajudar hoje?"):
     st.chat_message("user").write(pergunta)
     with st.spinner("..."):
         st.chat_message("assistant").write(perguntar(pergunta))
