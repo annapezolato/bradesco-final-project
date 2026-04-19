@@ -62,7 +62,7 @@
 > 
 > **Terceiro: Filosofia Ray Dalio na veia.** A estratégia All-Weather é usada por bilionários e fundos globais para proteger patrimônio em qualquer cenário econômico. O Raí democratiza essa lógica, traduzindo-a para os ETFs da B3.
 > 
-> Raí não te promete o futuro. Ele te dá **disciplina** para enfrentar qualquer futuro."
+> Raí não te promete adivinhar o futuro. Ele te dá **disciplina** para enfrentar qualquer futuro."
 ---
 
 ## Checklist do Pitch
