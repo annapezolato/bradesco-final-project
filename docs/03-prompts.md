@@ -85,6 +85,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 ## Exemplos de Interação
 
+```text
 Cenário 1: Criação de Carteira do Zero (Primeiro Investimento)
 👤 Input do Usuário
 text
@@ -188,19 +189,19 @@ Envie uma ordem de COMPRA de 7 DOLA11 (aprox. R$ 910)
 - Renda Fixa Inflação	IMBB11	55%	Estabilidade / Deflação
 - Ouro	GOLD11	7.5%	Hedge Inflacionário
 - Dólar	DOLA11	7.5%	Hedge Cambial
+```
 
 
 
 ## 🛡️ Tratamento de Edge Cases
 
-
+```text
 ### Edge Case 1: Pergunta Fora do Escopo (Conteúdo Não Relacionado)
 
 **Descrição:** O usuário tenta usar o agente como um ChatGPT genérico para assuntos não financeiros ou não relacionados à carteira.
 
 #### 👤 Input do Usuário
 
-```text
 "Qual a capital da Austrália?"
 text
 "Me explique a teoria da relatividade."
