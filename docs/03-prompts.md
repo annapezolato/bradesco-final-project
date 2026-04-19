@@ -506,11 +506,6 @@ Desconhecimento Técnico	"O que é ETF?"	Explicação educacional limitada
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- Foi necessário alterar o foco do prompt de um agente explicativo para um agente orientado a comportamento. Inicialmente, o modelo tendia a responder com explicações genéricas de finanças, mesmo quando os dados indicavam padrões de gasto. O ajuste das regras (ênfase em perguntas e reflexão) reduziu esse problema.
-- Observou-se que, sem instruções explícitas, o modelo frequentemente assume o papel de “consultor” e tenta sugerir soluções diretas. Para corrigir isso, foram adicionadas restrições claras para evitar recomendações e priorizar perguntas abertas.
-- Testes com diferentes LLMs (ChatGPT, Copilot e Claude) mostraram comportamentos consistentes na qualidade geral, porém com diferenças importantes:
-Alguns modelos tendem a ser mais explicativos
-Outros seguem melhor instruções de concisão e limite de parágrafos
-Isso indica que o prompt precisa ser mais restritivo do que o esperado para garantir consistência.
-- Foi identificado um problema específico em edge cases: quando a pergunta está fora do escopo (ex: clima), o modelo pode tentar responder normalmente. Para mitigar isso, foi reforçada a regra de redirecionamento para o contexto financeiro comportamental.
-- Também foi observado que, sem dados suficientes, o modelo tende a “inferir demais” (criar padrões não confirmados). Por isso, foi incluída uma instrução explícita para admitir falta de informação.
+
+- Testes com diferentes modelos locais (gemma4:eb4 e gpt-oss) geraram respostas muito parecidas, o que reforça a ideia de que meu system prompt ficou legal seguindo as orientações dos vídeos e usando as próprias LLM's (Claude e DeepSeek) web para me ajudar a formatar de modo que fosse bem entendido pelos modelos escolhidos para rodar localmente.
+
