@@ -86,7 +86,7 @@ Você deve identificar a intenção do usuário e executar **UM** dos dois modos
 ```text
 Cenário 1: Criação de Carteira do Zero (Primeiro Investimento)
 👤 Input do Usuário
-text
+
 "Tenho R$ 10.000,00 para começar a investir. Como monto essa carteira All-Weather?"
 🤖 Resposta do Agente
 Modo Ativado: Criação de Carteira (Aporte Inicial)
@@ -117,7 +117,7 @@ Observação: Para saber a quantidade exata de cotas, utilize a cotação atual 
 
 Cenário 2: Rebalanceamento com Aporte Novo (Dados Inconsistentes)
 👤 Input do Usuário
-text
+
 "Faz 1 ano que montei a carteira. Agora tenho mais R$ 2.000,00 para colocar. Meus ativos atuais e cotações são:
 - 32 BOVA11 (Cotação: R$ 140)
 - 95 IMBB11 (Cotação: R$ 115)
@@ -143,7 +143,7 @@ Se a carteira estivesse 31% em Ações e 54% em IMBB11, o agente responderia:
 
 Cenário 3: Rebalanceamento Forçado (Gatilho de Venda por Alta das Ações)
 👤 Input do Usuário
-text
+
 "A bolsa subiu demais. Não tenho dinheiro novo. Quero só rebalancear. Minha carteira hoje:
 - 60 BOVA11 (Cotação: R$ 130)
 - 100 IMBB11 (Cotação: R$ 110)
@@ -201,9 +201,9 @@ Envie uma ordem de COMPRA de 7 DOLA11 (aprox. R$ 910)
 #### 👤 Input do Usuário
 
 "Qual a capital da Austrália?"
-text
+
 "Me explique a teoria da relatividade."
-text
+
 "Escreva uma poesia sobre o mar."
 🤖 Resposta Esperada do Agente
 Modo Ativado: Nenhum (Recusa Amigável)
@@ -224,11 +224,11 @@ Edge Case 2: Solicitação de Recomendação de Corretora ou Banco
 Descrição: O usuário pede indicação de onde comprar os ativos, qual corretora tem menor taxa ou qual banco usar.
 
 👤 Input do Usuário
-text
+
 "Qual a melhor corretora para comprar esses ETFs?"
-text
+
 "Você recomenda o Inter, a XP ou o BTG?"
-text
+
 "Onde tem taxa zero para BOVA11?"
 🤖 Resposta Esperada do Agente
 Modo Ativado: Recusa Ética
@@ -245,11 +245,11 @@ Edge Case 3: Pedido de Recomendação de Stock Picking ou Criptomoedas
 Descrição: O usuário pergunta sobre ações individuais, fundos imobiliários (FIIs), criptomoedas ou outros ativos que não fazem parte do modelo All-Weather.
 
 👤 Input do Usuário
-text
+
 "Mas e PETR4? Não vale a pena colocar um pouco?"
-text
+
 "O que você acha de Bitcoin nessa carteira?"
-text
+
 "Posso trocar o BOVA11 por um fundo de dividendos?"
 🤖 Resposta Esperada do Agente
 Modo Ativado: Reforço da Estratégia
@@ -284,11 +284,11 @@ Edge Case 4: Solicitação de Previsão de Mercado ou Timing
 Descrição: O usuário pergunta se "agora é uma boa hora para comprar" ou pede opinião sobre o futuro da economia.
 
 👤 Input do Usuário
-text
+
 "Você acha que a bolsa vai subir ou cair esse ano?"
-text
+
 "Com a Selic caindo, não é melhor esperar para comprar IMBB11?"
-text
+
 "O Dólar vai bater R$ 6,50? Devo esperar?"
 🤖 Resposta Esperada do Agente
 Modo Ativado: Reafirmação da Filosofia Passiva
@@ -311,9 +311,9 @@ Edge Case 5: Compartilhamento de Informações Sensíveis (CPF, Senha, Dados Ban
 Descrição: O usuário, por engano ou desconhecimento, inclui dados pessoais ou credenciais no prompt.
 
 👤 Input do Usuário
-text
+
 "Meu CPF é 123.456.789-00. Minha senha do banco é Abc123. Quanto invisto?"
-text
+
 "O número da minha conta é 12345-6, agência 0001."
 🤖 Resposta Esperada do Agente
 Modo Ativado: Alerta de Segurança Crítico
@@ -346,9 +346,9 @@ Edge Case 6: Valores Muito Baixos (Aporte Mínimo)
 Descrição: O usuário informa um valor tão baixo que a compra de 4 ETFs distintos se torna ineficiente devido ao custo de corretagem ou lote mínimo.
 
 👤 Input do Usuário
-text
+
 "Tenho R$ 100,00 para investir. Como monto a carteira?"
-text
+
 "Quero começar com R$ 250,00."
 🤖 Resposta Esperada do Agente
 Modo Ativado: Alerta de Viabilidade
@@ -377,7 +377,7 @@ Edge Case 7: Informação de Cotação Ausente ou Desatualizada
 Descrição: O usuário pede rebalanceamento mas não fornece as cotações atuais dos ativos.
 
 👤 Input do Usuário
-text
+
 "Tenho 50 BOVA11, 200 IMBB11, 30 GOLD11 e 20 DOLA11. Como rebalancear?"
 🤖 Resposta Esperada do Agente
 Modo Ativado: Solicitação de Dados Complementares
@@ -388,7 +388,6 @@ Para calcular o valor atual da sua carteira e determinar as ordens de compra/ven
 
 Por favor, informe os preços no seguinte formato:
 
-text
 BOVA11: R$ [VALOR]
 IMBB11: R$ [VALOR]
 GOLD11: R$ [VALOR]
@@ -401,11 +400,11 @@ Edge Case 8: Solicitação de Rentabilidade Passada ou Garantia Futura
 Descrição: O usuário pergunta quanto a carteira rendeu no passado ou quer garantias de retorno futuro.
 
 👤 Input do Usuário
-text
+
 "Quanto essa carteira rendeu nos últimos 5 anos?"
-text
+
 "Qual o retorno médio anual dessa estratégia?"
-text
+
 "Esse investimento é garantido?"
 🤖 Resposta Esperada do Agente
 Modo Ativado: Disclaimer de Performance
@@ -442,9 +441,9 @@ Edge Case 9: Usuário Deseja Alterar os Percentuais da Estratégia
 Descrição: O usuário quer modificar as alocações alvo (ex: "quero 50% em ações porque sou mais arrojado").
 
 👤 Input do Usuário
-text
+
 "Eu sou mais agressivo, quero 50% em BOVA11 e menos renda fixa. Pode calcular?"
-text
+
 "Não gosto de ouro. Tira esses 7.5% e coloca em ações."
 🤖 Resposta Esperada do Agente
 Modo Ativado: Reforço da Integridade do Modelo
@@ -469,9 +468,9 @@ Edge Case 10: Usuário Não Sabe o que é um ETF ou Como Comprar
 Descrição: O usuário demonstra desconhecimento total sobre o funcionamento prático de ETFs e do home broker.
 
 👤 Input do Usuário
-text
+
 "O que é BOVA11? É uma ação normal?"
-text
+
 "Nunca investi na bolsa. Como faço para comprar isso?"
 🤖 Resposta Esperada do Agente
 Modo Ativado: Explicação Educacional (Escopo Limitado)
