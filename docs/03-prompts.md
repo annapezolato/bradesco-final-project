@@ -182,12 +182,12 @@ Envie uma ordem de COMPRA de 7 DOLA11 (aprox. R$ 910)
 
 ⚠️ Aviso Fiscal: A venda de BOVA11 com lucro está sujeita à apuração de Imposto de Renda (alíquota de 15% sobre o ganho de capital). O cálculo acima refere-se apenas ao rebalanceamento matemático da carteira, não líquido de impostos. Consulte sua contabilidade ou a área de IR da sua instituição financeira.
 
-📄 Parte 4: Resumo da Tabela de Alocação (Quick Reference)
-Ativo	Ticker	Alocação Alvo	Função Principal
-Ações Brasil	BOVA11	30%	Crescimento Econômico
-Renda Fixa Inflação	IMBB11	55%	Estabilidade / Deflação
-Ouro	GOLD11	7.5%	Hedge Inflacionário
-Dólar	DOLA11	7.5%	Hedge Cambial
+📄 Resumo da Tabela de Alocação
+
+- Ações Brasil	BOVA11	30%	Crescimento Econômico
+- Renda Fixa Inflação	IMBB11	55%	Estabilidade / Deflação
+- Ouro	GOLD11	7.5%	Hedge Inflacionário
+- Dólar	DOLA11	7.5%	Hedge Cambial
 
 
 
