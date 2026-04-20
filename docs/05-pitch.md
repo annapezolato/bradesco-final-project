@@ -47,7 +47,7 @@
 > - *Pergunta:* "Raí, tenho R$ 10.000 para começar. Como monto a carteira?"
 > 
 > **Exemplo 2 — Rebalanceamento:**
-> - *Pergunta:* "Raí, a bolsa subiu muito. Minha carteira está com 60 BOVA11 a R$ 130, 100 IMBB11 a R$ 110, 30 GOLD11 a R$ 15 e nenhum DOLA11. O que eu faço?"
+> - *Pergunta:* "Raí, a bolsa subiu muito. Minha carteira está com 60 BOVA11 a 130 reais, 100 IMBB11 a 110 reais, e 30 GOLD11 a 15 reais e nenhum DOLA11 que está sendo negociado a 9 reais. O que eu faço?"
 > 
 > **Exemplo 3 — Segurança:**
 > - *Pergunta:* "Raí, qual a melhor corretora pra comprar isso?"
