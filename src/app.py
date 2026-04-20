@@ -264,9 +264,9 @@ def perguntar(msg):
     return r.json()['response']
 
 # ============ INTERFACE ============
-st.title("Raí - Consultor de Carteira All-Weather Brasil")
+st.title("Raí - Portfolio All-Weather Brasil")
 
-if pergunta := st.chat_input("Como posso te ajudar hoje?"):
+if pergunta := st.chat_input(""):
     st.chat_message("user").write(pergunta)
     with st.spinner("..."):
         st.chat_message("assistant").write(perguntar(pergunta))
